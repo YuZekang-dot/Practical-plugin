@@ -1,0 +1,23 @@
+# Python caches and local environments
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# Reproducible test output; curated previews live in docs/images/
+**/tests/artifacts/
+.coverage
+htmlcov/
+
+# Local editor files and credentials
+.idea/
+.vscode/
+.env
+.env.*
+!.env.example
+*.log
+.DS_Store
+*~
